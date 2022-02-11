@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QQ</title>
+    <script src="q.js" type="application/javascript"></script>
+    <script src="contact_list.js" type="application/javascript"></script>
+</head>
+<body onload='refresh()'>
+<!--<div id="revise">
+    添加标签:<br>
+    name:<input type="text" placeholder="请输入姓名" id="name"><br>
+    account:<input type="text" placeholder="请输入账号" id="account"><br>
+    <input type="submit" value="添加账号">
+</div>-->
+<div id="info">
+    <div id="info2">
+        <!--<input type="checkbox" value="2979912353" id="1">name-->
+    </div>
+    <div name="checkall">
+        <input type="button" onclick="check_all()" value="一键全反">
+    </div>
+</div>
+<div id="msg">
+    <!--<input type="text" placeholder="请输入信息" id="text">-->
+    <textarea cols="80" rows="10" id="text"></textarea>
+</div>
+<span>
+    <input type="button" value="发送" onclick="send_message()">
+</span>
+<script type="application/javascript"></script>
+</body>
+</html>
